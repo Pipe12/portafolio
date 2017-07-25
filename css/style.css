@@ -16,6 +16,15 @@ header {
 	z-index: 9999;
 }
 
+header a img {
+	padding: 2px;
+	border-radius: 3px;
+}
+
+header a img:hover {
+	background-color: #63bc50;
+}
+
 header nav{
   float: right;
   margin: 20px auto auto auto;
