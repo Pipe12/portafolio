@@ -28,35 +28,34 @@
 
   </head>
   <body>
-    <div class="embuelto">
-      <header class="header">
-        <div class="wrapper_nav">
-          <a class="header__link" href="#">
-            <h1 class="header__my_name">Andrés Burbano</h1>
-            <p class="header__ocupation">Ingeniero</p>
-          </a>
-          <input type="checkbox" id="btn-ham"/><label for="btn-ham"></label>
-
-          <nav class="main-nav" aria-label="Main">
-            <ul class="main-nav__list">
-              <li class="main-nav__item">
-                <a href="#skills" class="main-nav__link">Skills</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="#experiencia" class="main-nav__link">Work and Education</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="#portafolio" class="main-nav__link">Portfolio</a>
-              </li>
-              <li class="main-nav__item">
-                <a href="#contacto" class="main-nav__link">Contacto</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-
-    <section id="skills">
+    <header class="header">
+      <div class="wrapper_nav">
+        <a class="header__link" href="#">
+          <h1 class="header__my_name">Andrés Burbano</h1>
+          <p class="header__ocupation">Ingeniero</p>
+        </a>
+        <input type="checkbox" id="btn-ham"/><label for="btn-ham"></label>
+        
+        <nav class="main-nav" aria-label="Main">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="#skills" class="main-nav__link">Skills</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#experiencia" class="main-nav__link">Work and Education</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#portafolio" class="main-nav__link">Portfolio</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#contacto" class="main-nav__link">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <section id="skills" class="embuelto">
       <div class="hardskills">
         <h2 class="skills__title"><strong>Hard</strong> skills</h2>
         <ul class="skills__list">
@@ -92,7 +91,7 @@
     </section>
 
     <section id="quote">
-      <div class="marco">
+      <div class="embuelto">
         <blockquote>
           <p>"La manera mas auténtica y honesta de expresar la FE es creer en nosotros mismos."</p>
           <footer>anonimo</footer>
@@ -100,7 +99,7 @@
       </div>
     </section>
 
-    <section id="experiencia">
+    <section id="experiencia" class="embuelto">
       <div class="marco">
         <div class="bloque">
           <h2><strong>trabajo y</strong> educacion</h2>
@@ -229,7 +228,7 @@
       </div>
     </section>
 
-    <section id="contacto">
+    <section id="contacto" class="embuelto">
       <div class="marco">
       <h2>Contacto</h2>
       <p>Tienes un proyecto en mente, y crees que puedo ayudarte contactame.</p>
@@ -293,6 +292,5 @@
         © 2021 <strong>Andrés Felipe Burbano,</strong> Todos los Derechos Reservados
       </div>
     </footer>
-    </div>
   </body>
 </html>

@@ -16,6 +16,13 @@ body {
   z-index: 9999;
 }
 
+.embuelto {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 3em;
+}
+
 .wrapper_nav {
   display: flex;
   align-items: center;
@@ -125,7 +132,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1em;
-  padding: 1em 3em;
+  /* padding: 1em 3em; */
   text-align: center;
 }
 
@@ -173,7 +180,7 @@ body {
 
 /*inicia los estilos de qoute*/
 
-#quote .marco blockquote {
+#quote blockquote {
   width: 100%;
 }
 #quote p {
@@ -186,12 +193,12 @@ body {
   color: white;
 }
 #quote {
-  padding: 2em 0em;
   background-color: #63bc50;
   color: white;
 }
 
 /* aqui es donde le quitas esta caracteristica */
+
 #experiencia .bloque {
   display: table;
   width: 100%;
