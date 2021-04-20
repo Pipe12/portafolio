@@ -19,10 +19,10 @@
     <link rel="stylesheet" href="https://s.mlcdn.co/animate.css">
 
     <!-- referencia de fuente de iconos -->
-	   <script src="https://use.fontawesome.com/5d9886de41.js"></script>
+     <script src="https://use.fontawesome.com/5d9886de41.js"></script>
 
     <!-- referencia para estandarizar los estilos usan normalize.css -->
-  	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -34,14 +34,24 @@
           <a class="header__link" href="#">
             <h1 class="header__my_name">Andrés Burbano</h1>
             <p class="header__ocupation">Ingeniero</p>
-            <!-- <img src="images/logo_ab.png" alt="Portafolio Andrés Burbano"> -->
           </a>
           <input type="checkbox" id="btn-ham"/><label for="btn-ham"></label>
-          <nav>
-            <a href="#skills">Habilidades</a>
-            <a href="#experiencia">Trabajo y Educacion</a>
-            <a href="#portafolio">Portafolio</a>
-            <a href="#contacto">Contacto</a>
+
+          <nav class="main-nav" aria-label="Main">
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a href="#skills" class="main-nav__link">Skills</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#experiencia" class="main-nav__link">Work and Education</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#portafolio" class="main-nav__link">Portfolio</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#contacto" class="main-nav__link">Contacto</a>
+              </li>
+            </ul>
           </nav>
         </div>
       </header>
@@ -51,32 +61,34 @@
         <div class="hardskills">
           <h2><strong>Hard</strong> skills</h2>
           <ul>
-          <li>Gestión de mantenimiento</li>
-					<li>Mejoras de procesos</li>
-					<li>Procesos de esterilización</li>
-					<li>Análisis de datos</li>
-					<li>Diseño en CAD</li>
-					<li>JavaScript</li>
-					<li>Html5 & css3</li>
-					<li>Bootstrap</li>
-					<li>Ruby on Rails</li>
-					<li>Y...</li>
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>HTML & CSS</li>
+            <li>SASS</li>
+            <li>Bootstrap</li>
+            <li>Ruby on Rails</li>
+            <li>Análisis de datos</li>
+            <li>Mejoras de procesos</li>
+            <li>Gestión de mantenimiento</li>
+            <li>Procesos de esterilización</li>
+            <li>Diseño en CAD</li>
+            <li>Y...</li>
           </ul>
           <p>Divirtiéndome<br> en el <br><strong>camino</strong></p>
         </div>
         <div class="softskills">
           <h2><strong>Soft</strong> skills</h2>
           <ul>
-          <li>Resolución de problemas</li>
-					<li>Toma de decisiones</li>
-					<li>Honestidad</li>
-					<li>Responsable</li>
-					<li>Creatividad</li>
-					<li>Confiable</li>
-					<li>Entusiasta</li>
-					<li>Practico</li>
-					<li>Adaptabilidad</li>
-					<li>Y...</li>
+            <li>Resolución de problemas</li>
+            <li>Toma de decisiones</li>
+            <li>Honestidad</li>
+            <li>Responsable</li>
+            <li>Creatividad</li>
+            <li>Confiable</li>
+            <li>Entusiasta</li>
+            <li>Practico</li>
+            <li>Adaptabilidad</li>
+            <li>Y...</li>
           </ul>
           <p>Trabajando <br> de manera<br> <strong>inteligente</strong></p>
         </div>
@@ -223,61 +235,61 @@
 
     <section id="contacto">
       <div class="marco">
-			<h2>Contacto</h2>
-			<p>Tienes un proyecto en mente, y crees que puedo ayudarte contactame.</p>
-			<div class="formula">
-				<div class="uno">
-					<input type="text" name="nombre" placeholder="Tu nombre">
-					<input type="text" name="e-mail" placeholder="Tu E-mail">
-					<textarea name="mensaje" rows="8" cols="80" placeholder="Mensaje..."></textarea>
-					<button type="submit" name="button">enviar</button>
-				</div>
-			</div>
-			<div class="redes">
-				<div class="uno">
-					<a target="_blank" href="archivos/cv-andres_burbano-frontend_developer.pdf">
-						<div>
-							<div class="icono">
-								<span>
-									<i class="fa fa-file" aria-hidden="true"></i>
-								</span>
-							</div>
-							<span>Download a curriculum vitae </span>
-						</div>
-					</a>
-					<a target="_blank" href="https://www.linkedin.com/in/andres-felipe-burbano-santa-9291895b/">
-						<div>
-							<div class="icono">
-								<span>
-									<i class="fa fa-linkedin" aria-hidden="true"></i>
-								</span>
-							</div>
-							<span> Connect to me Linkedin </span>
-						</div>
-					</a>
-					<a target="_blank" href="https://twitter.com/PipeBurbano12">
-						<div>
-							<div class="icono">
-								<span>
-									<i class="fa fa-twitter" aria-hidden="true"></i>
-								</span>
-							</div>
-							<span>Follow me on Twitter </span>
-						</div>
-					</a>
-					<a target="_blank" href="https://github.com/Pipe12">
-						<div>
-							<div class="icono">
-								<span>
-									<i class="fa fa-github" aria-hidden="true"></i>
-								</span>
-							</div>
-							<span>Follow me on Github </span>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
+      <h2>Contacto</h2>
+      <p>Tienes un proyecto en mente, y crees que puedo ayudarte contactame.</p>
+      <div class="formula">
+        <div class="uno">
+          <input type="text" name="nombre" placeholder="Tu nombre">
+          <input type="text" name="e-mail" placeholder="Tu E-mail">
+          <textarea name="mensaje" rows="8" cols="80" placeholder="Mensaje..."></textarea>
+          <button type="submit" name="button">enviar</button>
+        </div>
+      </div>
+      <div class="redes">
+        <div class="uno">
+          <a target="_blank" href="archivos/cv-andres_burbano-frontend_developer.pdf">
+            <div>
+              <div class="icono">
+                <span>
+                  <i class="fa fa-file" aria-hidden="true"></i>
+                </span>
+              </div>
+              <span>Download a curriculum vitae </span>
+            </div>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/andres-felipe-burbano-santa-9291895b/">
+            <div>
+              <div class="icono">
+                <span>
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </span>
+              </div>
+              <span> Connect to me Linkedin </span>
+            </div>
+          </a>
+          <a target="_blank" href="https://twitter.com/PipeBurbano12">
+            <div>
+              <div class="icono">
+                <span>
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </span>
+              </div>
+              <span>Follow me on Twitter </span>
+            </div>
+          </a>
+          <a target="_blank" href="https://github.com/Pipe12">
+            <div>
+              <div class="icono">
+                <span>
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </span>
+              </div>
+              <span>Follow me on Github </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
     </section>
 
     <footer class="pie">
