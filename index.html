@@ -29,95 +29,22 @@
   </head>
   <body>
     <div class="embuelto">
-      <header>
-        <div class="marco">
-    			<a href="#">
-    				<img src="images/logo_ab.png" alt="Portafolio Andrés Burbano">
-    			</a>
+      <header class="header">
+        <div class="wrapper_nav">
+          <a class="header__link" href="#">
+            <h1 class="header__my_name">Andrés Burbano</h1>
+            <p class="header__ocupation">Ingeniero</p>
+            <!-- <img src="images/logo_ab.png" alt="Portafolio Andrés Burbano"> -->
+          </a>
           <input type="checkbox" id="btn-ham"/><label for="btn-ham"></label>
-    			<nav>
-    				<a href="#" style="display:none">Yo</a>
-    				<a href="#" style="display:none">Saludo</a>
-    				<a href="#perfil" class="active">Perfil</a>
-    				<a href="#skills">Habilidades</a>
-    				<a href="#experiencia">Trabajo y Educacion</a>
-    				<a href="#portafolio">Portafolio</a>
-    				<a href="#contacto">Contacto</a>
-    			</nav>
-    		</div>
+          <nav>
+            <a href="#skills">Habilidades</a>
+            <a href="#experiencia">Trabajo y Educacion</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#contacto">Contacto</a>
+          </nav>
+        </div>
       </header>
-    <!--</div>-->
-
-    <section id="banner">
-      <div class="marco">
-        <div class="banner">
-          <div class="grup-1">
-            <div class="nube">
-              <img class="animated infinite pulse" src="images/logo_banner_1.png" alt="logo Andrés Burbano" />
-            </div>
-          </div>
-          <div class="img-banner">
-            <img src="images/pic_banner_3.jpg" draggable="false" alt="foto de banner" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="saludo"></section>
-
-
-    <section id="perfil">
-      <div class="marco">
-        <div id="carrusel">
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-
-              <div class="item active">
-                <img src="images/pic_profile_1.jpg" alt="Chania" width="100%" height="90%">
-              </div>
-
-              <div class="item">
-                <img src="images/pic_profile_2.jpg" alt="Chania" width="100%" height="90%">
-              </div>
-
-              <div class="item">
-                <img src="images/pic_profile_3.jpg" alt="Flower" width="100%" height="90%">
-              </div>
-
-              <div class="item">
-                <img src="images/pic_profile_4.jpg" alt="Flower" width="100%" height="90%">
-              </div>
-
-              <div class="item">
-                <img src="images/pic_profile_5.jpg" alt="Flower" width="100%" height="90%">
-              </div>
-
-              <div class="item">
-                <img src="images/pic_profile_6.jpg" alt="Flower" width="100%" height="90%">
-              </div>
-
-              <div class="item">
-                <img src="images/pic_profile_7.jpg" alt="Flower" width="100%" height="90%">
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div id="info-perfil">
-          <h2>Perfil</h2>
-          <h3>Nombre</h3>
-          <p>Andrés Felipe Burbano</p>
-          <h3>Fecha de nacimiento</h3>
-          <p>12 de Mayo de 1981</p>
-          <h3>Dirección</h3>
-          <p>Cali, Colombia</p>
-          <h3>Nacionalidad</h3>
-          <p>Colombiana</p>
-        </div>
-      </div>
-    </section>
 
     <section id="skills">
       <div class="marco">
@@ -169,9 +96,9 @@
       <div class="marco">
         <div class="bloque">
           <h2><strong>trabajo y</strong> educacion</h2>
-          <div class="metros">
+          <!-- <div class="metros">
             <span>NOW OR NEVER</span>
-          </div>
+          </div> -->
           <div class="timeline">
             <article>
               <span>T</span>
@@ -235,9 +162,9 @@
               </ul>
             </article>
           </div>
-          <figure class="bgpipe">
+          <!-- <figure class="bgpipe">
             <img src="images/pic_work_af.jpg" alt="">
-          </figure>
+          </figure> -->
         </div>
       </div>
     </section>
@@ -246,103 +173,48 @@
 
       <div class="marco">
         <h2>Portafolio</h2>
-        <a href="#openModal">
+        <a href="https://world-countries-ten.vercel.app/" target="_blank">
           <div class="work">
-            <img src="images/pic_work_1.jpeg" alt="tarbajo 1" class="image_over">
+            <img src="images/world-countries.jpg" alt="world-countries app" class="image_over">
             <div class="overlay">
               <div class="overtext">
-                <h3>Mainco Health Care S.A.S.</h3>
-                <h4>Coordinador de mantenimiento</h4>
+                <h3>World Countries</h3>
+                <h4>Main technologies</h4>
                 <ul>
-                  <li>Mejora de proceso</li>
-                  <li>0 PMM en planta</li>
+                  <li>React</li>
+                  <li>Stiled Components</li>
                 </ul>
               </div>
             </div>
           </div>
         </a>
-        <div id="openModal" class="modalDialog">
-          <div>
-            <div class="marco">
-              <a href="#close" title="Close" class="close">X</a>
-                <h2 class="titleModal" >Mainco Health Care S.A.S.</h2> 
-                <p>Esto se logró gracias a que el equipo apoyo brindado por todos las personas que hacían parte de la central de esterilización.</p>
-                <h3>Coordinador de mantenimiento</h3>
-                <h3>Logros</h3>
-                <h3>0 PPM en el área de trabajo.</h3>
-                <h3>Como:</h3>
+        <a href="https://pokedex-ebon-chi.vercel.app/" target="_blank">
+          <div class="work">
+            <img src="images/pokedex.png" alt="pokedex app" class="image_over">
+            <div class="overlay">
+              <div class="overtext">
+                <h3>Pokedex</h3>
+                <h4>Main technologies</h4>
                 <ul>
-                  <li>Mejoras en la tubería de extracción de ETO.</li>
-                  <li>Trabajo de la tubería en vacío.</li>
+                  <li>React</li>
+                  <li>Stiled Components</li>
                 </ul>
-                <h3>Ambiente de trabajo libre de contaminación durante todas las fases del proceso.</h3>
-                <h3>Mejoras en el ciclo de esterilización</h3>
-                <h3>Como:</h3>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="https://huddle-landing-page-two-lac.vercel.app/" target="_blank">
+          <div class="work">
+            <img src="images/huddle-section.png" alt="Huddle section landing page" class="image_over">
+            <div class="overlay">
+              <div class="overtext">
+                <h3>Pokedex</h3>
+                <h4>Main technologies</h4>
                 <ul>
-                  <li>Aumento de nivel de esterilización ( De 381 mg/L a 514 mg/L)</li>
-                  <li>Cambio de mezcla de ETO ( De ETO 1090 a ETO 2080 )</li>
-                  <h3>Reducción de tiempo de ciclo.</h3>
-                  <h3>Como:</h3>
-                  <ul>
-                    <li>Pasa de 340 min de esterilización a 300 min.</li>
-                    <li>Pasa de 45 min de inyección a 25 min.</li>
-                    <li>Un ciclo de esterilización 60 min más rápido.</li>
-                  </ul>
-                  <h3>0 biológicos positivos</h3>
-                  <h3>Como:</h3>
-                  <ul>
-                    <li>Eliminar todos los reproceso generados en la parte final del ciclo. Solo consumir 20kiolos del cilindro.</li>
-                    <li>Se pasa de 15% de reprocesos a solo el 2%.</li>
-                  </ul>
-            </div>
-          </div>
-        </div>
-
-        <a href="#">
-          <div class="work">
-            <img src="images/pic_work_1.jpeg" alt="tarbajo 1" class="image_over">
-            <div class="overlay">
-              <div class="overtext">Hello world !</div>
-            </div>
-          </div>
-        </a>
-        <a href="#">
-          <div class="work">
-            <img src="images/pic_work_1.jpeg" alt="tarbajo 1" class="image_over">
-            <div class="overlay">
-              <div class="overtext">Hello world !</div>
-            </div>
-          </div>
-        </a>
-        <a href="#">
-          <div class="work">
-            <img src="images/pic_work_1.jpeg" alt="tarbajo 1" class="image_over">
-            <div class="overlay">
-              <div class="overtext">Hello world !</div>
-            </div>
-          </div>
-        </a>
-        <a href="#">
-          <div class="work">
-            <img src="images/pic_work_1.jpeg" alt="tarbajo 1" class="image_over">
-            <div class="overlay">
-              <div class="overtext">Hello world !</div>
-            </div>
-          </div>
-        </a>
-        <a href="#">
-          <div class="work">
-            <img src="images/pic_work_1.jpeg" alt="tarbajo 1" class="image_over">
-            <div class="overlay">
-              <div class="overtext">Hello world !</div>
-            </div>
-          </div>
-        </a>
-        <a href="#">
-          <div class="work">
-            <img src="images/pic_work_1.jpeg" alt="tarbajo 1" class="image_over">
-            <div class="overlay">
-              <div class="overtext">Hello world !</div>
+                  <li>HTML</li>
+                  <li>CSS Grid</li>
+                </ul>
+              </div>
             </div>
           </div>
         </a>
@@ -352,7 +224,7 @@
     <section id="contacto">
       <div class="marco">
 			<h2>Contacto</h2>
-			<p>Tienes un proyecto en mente, y crees que puedo ayudarte ? <br> Siente libre de enviarme un e-mail <a href="#">yo@andresburbano.com</a></p>
+			<p>Tienes un proyecto en mente, y crees que puedo ayudarte contactame.</p>
 			<div class="formula">
 				<div class="uno">
 					<input type="text" name="nombre" placeholder="Tu nombre">
@@ -363,7 +235,7 @@
 			</div>
 			<div class="redes">
 				<div class="uno">
-					<a target="_blank" href="archivos/AndresBurbanoCV.pdf">
+					<a target="_blank" href="archivos/cv-andres_burbano-frontend_developer.pdf">
 						<div>
 							<div class="icono">
 								<span>
@@ -410,10 +282,9 @@
 
     <footer class="pie">
       <div class="marco">
-        © 2017 <strong>Andrés Felipe Burbano,</strong> Todos los Derechos Reservados
+        © 2021 <strong>Andrés Felipe Burbano,</strong> Todos los Derechos Reservados
       </div>
     </footer>
-  </div>
-
+    </div>
   </body>
 </html>

@@ -1,33 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;900&display=swap');
+
 * {
 	box-sizing: border-box;
 }
 
 body {
-	font-family: 'comfortaa';
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
 }
 
-/*INICIA LOS ESTILOS DEL HEADER*/
-
-header {
-	position: fixed;
-	padding: 10px 20px 5px 35px;
-	width: 100%;
+.header {
+	border: 1px solid red;
+	position: sticky;
+	top: 0;
 	background-color: rgba(0, 0, 0, 0.9);
 	z-index: 9999;
 }
 
-header a img {
-	padding: 2px;
-	border-radius: 3px;
+.wrapper_nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
 }
 
-header a img:hover {
-	background-color: #63bc50;
+.header .wrapper_nav .header__link {
+	text-decoration: none;
+	color: white;
 }
 
-header nav{
-  float: right;
-  margin: 20px auto auto auto;
+.wrapper_nav .header__link .header__my_name {
+	margin: 0;
+}
+
+.wrapper_nav .header__link .header__ocupation {
+	margin: 0;
+	font-size: 1.2em;
+	font-weight: 300;
 }
 
 header nav a{
@@ -42,7 +54,7 @@ header nav a{
 header nav a:hover {
 	background-color: #63bc50;
 	text-decoration: none;
-	color: #ededed;
+	color: #191919;
 }
 
 [type="checkbox"], label {
@@ -102,8 +114,6 @@ h2 {
 	margin-left: 30px;
 }
 
-/*INICIA LOS ESTILOS DEL BANNER*/
-
 #banner {
 	background-color: #ffffff;
 }
@@ -154,8 +164,6 @@ h2 {
 		padding-top: 100px;
 	}
 }
-
-/*INICIA LOS ESTILOS DEL PERFIL*/
 
 #carrusel {
 	width: 70%;
@@ -218,8 +226,6 @@ h2::before {
 #perfil .marco{
 	display: flex;
 }
-
-/*inicia los estilos de habilidades*/
 
 #skills {
 	background-image: url(../images/pic_skills.jpg);
@@ -375,7 +381,6 @@ h2::before {
   /*background-color: aquamarine;*/
   width: 200px;
   height: 934px;
-  background-image: url(../images/pic_work_small.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   position: relative;
