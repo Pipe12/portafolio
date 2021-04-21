@@ -16,7 +16,7 @@ body {
   z-index: 9999;
 }
 
-.embuelto {
+.wrapper {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -136,6 +136,7 @@ body {
   text-align: center;
 }
 
+
 #skills .skills__title {
   font-size: 2.2em;
   margin-bottom: 2rem;
@@ -199,67 +200,16 @@ body {
 
 /* aqui es donde le quitas esta caracteristica */
 
-#experiencia .bloque {
+#experiencia {
   display: table;
   width: 100%;
 }
 
-#experiencia .marco {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  position: relative;
-}
-
-#experiencia .metros {
-  width: 200px;
-  height: 934px;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  position: relative;
-  float: left;
-  margin-left: 5%;
-  margin-top: 90px;
-  z-index: 2;
-}
-
-@media screen and (max-width: 1050px) {
-  #experiencia .metros {
-    margin-left: 3%;
-  }
-}
-
-@media screen and (max-width: 998px) {
-  #experiencia .metros {
-    display: none;
-  }
-}
-
-#experiencia .metros span {
-  color: #d1d1d1;
-  transform: rotate(-90deg);
-  /* Safari */
-  -webkit-transform: rotate(-90deg);
-  /* Firefox */
-  -moz-transform: rotate(-90deg);
-  /* IE */
-  -ms-transform: rotate(-90deg);
-  /* Opera */
-  -o-transform: rotate(-90deg);
-  display: inline;
-  position: absolute;
-  left: -200px;
-  top: 150px;
-  font-size: 60px;
-  font-weight: 800;
-  width: 600px;
-}
-
-#experiencia .timeline {
-  /*background-color: lightcyan;*/
+.timeline {
   float: right;
   width: 634px;
-  height: 934px;
-  margin-top: 90px;
+  height: 1120px;
+  margin-top: 2rem;
   margin-left: 75px;
   position: relative;
   right: 10%;
@@ -287,6 +237,11 @@ body {
   }
 }
 
+#experiencia .experience__title {
+  font-size: 2.2em;
+  margin-bottom: 2rem;
+}
+
 #experiencia article {
   position: relative;
   margin-top: 40px;
@@ -303,13 +258,17 @@ body {
   font-size: 22px;
   font-weight: 600;
   position: absolute;
-  left: -52px;
-  top: 10px;
+  left: -34px;
+  top: 1px;
 }
 
 #experiencia article>p {
-  font-size: 17px;
+  font-weight: 400;
+  font-size: 1.2rem;
   line-height: 1;
+  margin: 0 0 0 .5rem;
+  color: #707070;
+
 }
 
 #experiencia .line {
@@ -703,10 +662,10 @@ body {
   line-height: 37px;
 }
 
-.pie {
+.footer {
   background-color: #000000;
   color: #ededed;
   font-size: 18px;
   text-align: center;
-  padding: 90px 0px;
+  padding: 2em 0;
 }
