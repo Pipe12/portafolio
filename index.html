@@ -2,26 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Andres Felipe Burbano</title>
+    <title>Andres Burbano</title>
 
-    <!-- referencia a boostrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-    <!-- referencia a jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-
-    <!-- Referencia a Javascript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-    <!-- referencia animatte.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
-    <link rel="stylesheet" href="https://s.mlcdn.co/animate.css">
-
-    <!-- referencia de fuente de iconos -->
      <script src="https://use.fontawesome.com/5d9886de41.js"></script>
 
-    <!-- referencia para estandarizar los estilos usan normalize.css -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -32,7 +18,7 @@
       <div class="wrapper_nav">
         <a class="header__link" href="#">
           <h1 class="header__my_name">Andrés Burbano</h1>
-          <p class="header__ocupation">Ingeniero</p>
+          <p class="header__ocupation">FrontEnd Developer</p>
         </a>
         <input type="checkbox" id="btn-ham"/><label for="btn-ham"></label>
         
@@ -191,59 +177,199 @@
     </section>
 
     <section id="portafolio">
-      <div class="marco">
-        <h2>Portafolio</h2>
-        <a href="https://world-countries-ten.vercel.app/" target="_blank">
-          <div class="work">
-            <img src="images/world-countries.jpg" alt="world-countries app" class="image_over">
-            <div class="overlay">
-              <div class="overtext">
-                <h3>World Countries</h3>
-                <h4>Main technologies</h4>
-                <ul>
-                  <li>React</li>
-                  <li>Stiled Components</li>
-                </ul>
+      <div class="wrapper portafolio__grid">
+        <h2><strong>Portfolio</strong></h2>
+        <ul class="projects__list">
+          <li class="projects__item">
+            <div class="work">
+              <img src="images/world-countries.jpg" alt="world-countries app" class="image_over">
+              <div class="overlay">
+                <div class="overtext">
+                  <h3 class="overtext__title">World Countries</h3>
+                  <ul>
+                    <li>React</li>
+                    <li>React Router</li>
+                    <li>Stiled Components</li>
+                  </ul>
+                  <p>
+                    <a  href="https://world-countries-ten.vercel.app/" 
+                        target="_blank"
+                        class="overtext__link"
+                    >
+                      Deploy
+                    </a>
+                    </p>
+                    <p>
+                      <a  href="https://github.com/Pipe12/world_countries"
+                          target="_blank"
+                          class="overtext__link"
+                      >
+                        Github
+                      </a>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </a>
-        <a href="https://pokedex-ebon-chi.vercel.app/" target="_blank">
-          <div class="work">
-            <img src="images/pokedex.png" alt="pokedex app" class="image_over">
-            <div class="overlay">
-              <div class="overtext">
-                <h3>Pokedex</h3>
-                <h4>Main technologies</h4>
-                <ul>
-                  <li>React</li>
-                  <li>Stiled Components</li>
-                </ul>
+          </li>
+          <li class="projects__item">
+            <div class="work">
+              <img src="images/pokedex.png" alt="pokedex app" class="image_over">
+              <div class="overlay">
+                <div class="overtext">
+                  <h3 class="overtext__title">Pokedex</h3>
+                  <ul>
+                    <li>React</li>
+                    <li>React router</li>
+                    <li>Stiled Components</li>
+                  </ul>
+                  <p>
+                    <a  href="https://pokedex-ebon-chi.vercel.app/"
+                        target="_blank"
+                        class="overtext__link"
+                    >
+                      Deploy
+                    </a>
+                  </p>  
+                  <p>
+                    <a  href="https://github.com/Pipe12/pokedex"
+                        target="_blank"
+                        class="overtext__link"
+                        >
+                      Github
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </a>
-        <a href="https://huddle-landing-page-two-lac.vercel.app/" target="_blank">
-          <div class="work">
-            <img src="images/huddle-section.png" alt="Huddle section landing page" class="image_over">
-            <div class="overlay">
-              <div class="overtext">
-                <h3>Pokedex</h3>
-                <h4>Main technologies</h4>
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS Grid</li>
-                </ul>
+          </li>
+          <li class="projects__item">
+            <div class="work">
+              <img src="images/huddle-secction.png" alt="Huddle section landing page" class="image_over">
+              <div class="overlay">
+                <div class="overtext">
+                  <h3 class="overtext__title">Huddle Section</h3>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS Grid</li>
+                  </ul>
+                  <p>
+                    <a  href="https://huddle-landing-page-two-lac.vercel.app/"
+                        target="_blank"
+                        class="overtext__link"
+                    >
+                      Deploy
+                    </a>
+                  </p>
+                  <p>
+                    <a  href="https://github.com/Pipe12/huddle-landing-page"
+                        target="_blank"
+                        class="overtext__link"
+                    >
+                      Github
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </a>
+          </li>
+          <li class="projects__item">
+            <div class="work">
+              <img src="images/fylo-landing-page.jpeg" alt="Fylo landing page" class="image_over">
+              <div class="overlay">
+                <div class="overtext">
+                  <h3 class="overtext__title">Huddle Section</h3>
+                  <ul>
+                    <li>HTML</li>
+                    <li>SASS</li>
+                  </ul>
+                  <p>
+                    <a  href="https://pipe12.github.io/fylo_landing_page/"
+                        target="_blank"
+                        class="overtext__link"
+                    >
+                      Deploy
+                    </a>
+                  </p>
+                  <p>
+                    <a  href="https://github.com/Pipe12/fylo_landing_page"
+                        target="_blank"
+                        class="overtext__link"
+                    >
+                      Github
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="projects__item">
+            <div class="work">
+              <img src="images/testimonial-slider.png" alt="Huddle section landing page" class="image_over">
+              <div class="overlay">
+                <div class="overtext">
+                  <h3 class="overtext__title">Huddle Section</h3>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                  </ul>
+                  <p>
+                    <a  href="https://pipe12.github.io/testimonials_slider/"
+                        target="_blank"
+                        class="overtext__link"
+                    >
+                      Deploy
+                    </a>
+                  </p>
+                  <p>
+                    <a  href="https://github.com/Pipe12/testimonials_slider"
+                        target="_blank"
+                        class="overtext__link"
+                      >
+                      Github
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="projects__item">
+            <div class="work">
+              <img src="images/single-price.png" alt="Huddle section landing page" class="image_over">
+              <div class="overlay">
+                <div class="overtext">
+                  <h3 class="overtext__title">Huddle Section</h3>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS Grid</li>
+                    <li>SASS</li>
+                  </ul>
+                  <p>
+                    <a  href="https://pipe12.github.io/Single_price/"
+                        target="_blank"
+                        class="overtext__link"
+                    >
+                      Deploy
+                    </a>
+                  </p>
+                  <p>
+                    <a  href="https://github.com/Pipe12/Single_price"
+                        target="_blank"
+                        class="overtext__link"
+                    >
+                      Github
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
 
     <section id="contacto" class="wrapper">
-      <div class="marco">
-      <h2>Contacto</h2>
+      <h2><strong>Contact</strong></h2>
       <p>Tienes un proyecto en mente, y crees que puedo ayudarte contactame.</p>
       <div class="formula">
         <div class="uno">
@@ -297,7 +423,6 @@
           </a>
         </div>
       </div>
-    </div>
     </section>
 
     <footer class="footer">
