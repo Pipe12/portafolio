@@ -451,7 +451,6 @@ body {
 
 @media screen and (max-width: 800px) {
   .projects__item {
-    border: 1px solid green;
     height: 350px;
   }
 
