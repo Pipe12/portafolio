@@ -461,10 +461,6 @@ body {
 }
 
 @media screen and (min-width: 801px) and (max-width: 1200px) {
-  .projects__item {
-    border: 1px solid red;
-  }
-
   .projects__list {
     grid-template-columns: repeat(2, 1fr);
   }
